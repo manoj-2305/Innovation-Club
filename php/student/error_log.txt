@@ -1,0 +1,5 @@
+Received data: {"reg_no":"TU6230105111025","action":"sendOtp"}
+OTP Updated for Student
+Student OTP Email Sent
+Received data: {"reg_no":"TU6230105111025","otp":"838426","action":"verifyOtp"}
+Received data: {"reg_no":"TU6230105111025","newPassword":"12345","action":"changePassword"}

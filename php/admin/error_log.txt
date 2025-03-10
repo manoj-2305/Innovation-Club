@@ -1,0 +1,15 @@
+Received data: {"email":"manojmutireddy@gmail.com","action":"sendOtp"}
+OTP updated in database
+Email sent successfully
+Received data: {"email":"manojmutireddy@gmail.com","otp":"371764","action":"verifyOtp"}
+Received data: {"email":"manojmutireddy@gmail.com","newPassword":"12345","action":"changePassword"}
+Received data: {"email":"manojmutireddy@gmail.com","action":"sendOtp"}
+OTP updated in database
+Email sent successfully
+Received data: {"email":"manojmutireddy@gmail.com","otp":"662614","action":"verifyOtp"}
+Received data: {"email":"manojmutireddy@gmail.com","newPassword":"12345","action":"changePassword"}
+Received data: {"email":"manojmutireddy@gmail.com","action":"sendOtp"}
+OTP updated in database
+Email sent successfully
+Received data: {"email":"manojmutireddy@gmail.com","otp":"715019","action":"verifyOtp"}
+Received data: {"email":"manojmutireddy@gmail.com","newPassword":"123","action":"changePassword"}

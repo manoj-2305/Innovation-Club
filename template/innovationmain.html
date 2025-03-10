@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - CSMS</title>
+    <link rel="stylesheet" href="../css/style1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="profile-photo1">
+            <a href="https://www.takshashilauniv.ac.in/" target="_blank" class="button">
+                <img src="../img/mainlogo.png" alt="Profile Photo">
+            </a>
+        </div>
+        <button class="menu-toggle"><i class="fas fa-bars"></i></button>
+        <div class="nav-links">
+            <a href="../index.html">Home</a>
+            <a href="takshashila.html">About TU</a>
+            <a href="#contact">Contact</a>
+            <a href="login.html">Login</a>
+        </div>
+    </nav>
+    
+
+   
+    <section id="contact" class="contact-section">
+        <div class="contact-content">
+            <h2>Contact Info</h2>
+            <div class="contact-grid">
+                <div class="contact-item">
+                    <a href="https://www.google.com/maps/place/Takshashila+University/@12.3342764,79.7805948,17z/data=!3m1!4b1!4m6!3m5!1s0x3a531501c8620677:0x57511cc958199077!8m2!3d12.3342764!4d79.7831697!16s%2Fg%2F11rz7nn09w?entry=ttu&g_ep=EgoyMDI0MTExMC4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="map-button">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Address</h3>
+                        <p>Ongur, Tindivanam Taluk, Villupuram District, Tamil Nadu 604 305.</p>
+                    </a>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p><a href="mailto:admission@takshilauniv.com">admission@takshilauniv.com</a></p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <h3>Phone</h3>
+                    <p>9297623456 | 9297523456 | 04147-234567</p>
+                    <p class="regional">Students from Andra Pradesh/ Telangana Contact:<br>6385467663, 6385467647</p>
+                </div>
+            </div>
+            <div class="social-links">
+                <h3>Follow Us On</h3>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/people/Takshashila-University/100083042965090/" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.linkedin.com/company/takshashila-university" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.youtube.com/channel/UCgiO_98ZcbHUYdGxYPzq-jg" target="_blank" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/takshashilauniv/" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="https://x.com/i/flow/login?redirect_after_login=%2Ftakshauniv" target="_blank" class="social-icon"><i class="fab fa-x"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        document.querySelector(".menu-toggle").addEventListener("click", function () {
+            document.querySelector(".nav-links").classList.toggle("active");
+        });
+    
+        document.querySelectorAll(".nav-links a").forEach(link => {
+            link.addEventListener("click", function () {
+                document.querySelector(".nav-links").classList.remove("active");
+            });
+        });
+    </script>
+    
+    
+
+    
+</body>
+</html>
