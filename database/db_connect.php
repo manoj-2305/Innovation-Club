@@ -1,14 +1,15 @@
 <?php
-$servername = "localhost";
-$username = "root"; // Default XAMPP username
-$password = ""; // Default XAMPP password (empty)
-$dbname = "innovation";
+$host = "b0g0kmwxuwig2qxqxi6e-mysql.services.clever-cloud.com";  // From Clever Cloud
+$username = "uyqe0f9pljhjbl24"; 
+$password = "I4cu3maPECbguecKHcwf"; 
+$database = "b0g0kmwxuwig2qxqxi6e"; 
+$port = "3306";
 
-// Create a connection
-$conn = new mysqli($servername, $username, $password, $dbname);
+$conn = new mysqli($host, $username, $password, $database, $port);
 
-// Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
+echo "Connected successfully!";
 ?>
+
